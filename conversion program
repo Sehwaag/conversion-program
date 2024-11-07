@@ -1,0 +1,9 @@
+class MyDog:
+    def __init__(self, name):
+        self.name = name
+ 
+    def show_name(self):
+        print("My dog's name is: ", self.name)
+ 
+x = MyDog('Pepper')
+print(x)
